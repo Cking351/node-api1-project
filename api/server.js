@@ -4,6 +4,7 @@ const express = require("express");
 const server = express();
 const User = require("./users/model.js");
 
+// use
 server.use(express.json());
 
 // GET USERS
